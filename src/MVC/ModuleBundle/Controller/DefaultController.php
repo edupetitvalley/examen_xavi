@@ -1,13 +1,15 @@
 <?php
 
+// src/MVC/ModuleBundle/Controller/HelloController.php
+ 
 namespace MVC\ModuleBundle\Controller;
-
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
-class DefaultController extends Controller
+use Symfony\Component\HttpFoundation\Response;
+ 
+class DefaultController
 {
-    public function indexAction($name)
+    public function indexAction()
     {
-        return $this->render('MVCModuleBundle:Default:index.html.twig', array('name' => $name));
+      return new Response('<html><body>La ruta de info funciona!</body></html>');
     }
 }
+
