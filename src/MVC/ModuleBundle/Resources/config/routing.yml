@@ -1,3 +1,0 @@
-mvc_module_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: MVCModuleBundle:Default:index }

@@ -1,4 +1,0 @@
-services:
-#    mvc_module.example:
-#        class: MVC\ModuleBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
