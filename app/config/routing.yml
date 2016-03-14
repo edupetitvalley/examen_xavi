@@ -1,3 +1,7 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+hello:
+    path:         /info/
+    defaults:     { _controller: MVCModuleBundle:Default:index }
